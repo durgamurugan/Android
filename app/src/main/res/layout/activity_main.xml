@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:onClick="Add_To_Cart"
+        android:text="ADD TO CART"
+        app:backgroundTint="#F8FFDB28"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/ic_baseline_shopping_cart_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:onClick="Buy_Now"
+        android:text="BUY NOW"
+        app:backgroundTint="#E66A0C"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/ic_baseline_flash_on_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
